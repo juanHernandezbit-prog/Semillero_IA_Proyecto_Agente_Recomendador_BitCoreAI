@@ -1,5 +1,7 @@
 # 🧠 Agente Recomendador de Productos
 
+<img width="250" height="200" alt="bitcore_logo" src="https://github.com/user-attachments/assets/65eccc45-f6c1-42fd-b23f-dff560330d7e" />
+
 ## 📌 Objetivo
 Recomendar productos y planes de internet según el **CONSUMO del cliente**, analizando velocidad, histórico y patrones de uso para generar ofertas personalizadas y propuestas de cambio de plan.
 
@@ -31,6 +33,7 @@ import tkinter as tk
 from tkinter import messagebox
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
+```
  ## 🏗️ Arquitectura General
 El sistema se compone de los siguientes módulos:
 Interfaz gráfica (GUI): desarrollada con CustomTkinter, permite la interacción con el usuario.
@@ -38,7 +41,7 @@ Módulo de análisis de consumo: procesa datos históricos y patrones de uso.
 Motor de recomendación: aplica el algoritmo de escalas para sugerir cambios de plan.
 Módulo de persuasión: genera mensajes personalizados para recomendar planes superiores.
 Cierre de conversación: incluye análisis de sentimiento, resumen y propuesta final.
- ##  💻 Tecnologías Usadas
+ ## 💻 Tecnologías Usadas
  Python 3.x
 
 CustomTkinter para la interfaz gráfica.
@@ -49,3 +52,43 @@ LangChain + Google Generative AI para procesamiento de lenguaje natural.
 
 Tkinter para componentes básicos de GUI.
 ## ⚙️ Instalación y Ejecución
+1.Clonar el repositorio: 
+```bash
+git clone https://github.com/usuario/agente-recomendador.git
+```
+2.Entrar en la carpeta del proyecto:
+```bash
+cd agente-recomendador
+```
+3. Instalar dependencias:
+```bash
+pip install -r requirements.txt
+```
+4. Ejecutar el sistema:
+```bash
+python main.py
+```
+ ## ▶️ Uso del Sistema
+El usuario ingresa datos de consumo de internet.
+
+El agente analiza velocidad y patrones de uso.
+
+Se genera una recomendación de plan acorde al perfil.
+
+Se aplica el algoritmo de escalas para sugerir un plan superior si corresponde.
+
+El sistema muestra un cierre detallado con:
+
+Análisis de sentimiento
+
+Resumen de la conversación
+
+Plan propuesto
+
+Motivo de la recomendación
+
+ ## 👥 Autores
+ Juan Pablo Hernández Arámbulo
+
+Jessie Gabriela Suárez Naranjo
+
