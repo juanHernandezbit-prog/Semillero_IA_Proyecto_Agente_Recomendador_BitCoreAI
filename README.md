@@ -54,17 +54,13 @@ Tkinter para componentes básicos de GUI.
 ## ⚙️ Instalación y Ejecución
 1.Clonar el repositorio: 
 ```bash
-
+git clone https://github.com/juanHernandezbit-prog/Semillero_IA_Proyecto_Agente_Recomendador_BitCoreAI/tree/main
 ```
-2.Entrar en la carpeta del proyecto:
-```bash
-
-```
-3. Instalar dependencias:
+2. Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
-4. Ejecutar el sistema:
+3. Ejecutar el sistema:
 ```bash
 python main.py
 ```
