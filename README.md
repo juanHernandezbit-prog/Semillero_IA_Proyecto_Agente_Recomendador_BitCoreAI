@@ -58,7 +58,7 @@ git clone https://github.com/juanHernandezbit-prog/Semillero_IA_Proyecto_Agente_
 ```
 2.Entrar en la carpeta del proyecto:
 ```bash
-cd agente-recomendador
+cd Semillero_IA_Proyecto_Agente_Recomendador_BitCoreAI
 ```
 3. Instalar dependencias:
 ```bash
