@@ -92,6 +92,10 @@ Motivo de la recomendación
  
 
 Jessie Gabriela Suárez Naranjo (@jessiesuarez)
+
+## link del video
+
+https://drive.google.com/file/d/15YngrUVEluXu-XNj3wiKLN5Z03tyMxCA/view?usp=sharing
  
 
 
